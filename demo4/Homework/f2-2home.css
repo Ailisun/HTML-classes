@@ -11,9 +11,6 @@
     background: #2ca6fd;
     color: white;
 
-
-
-
 }
 .ss {
     display: flex;
@@ -28,7 +25,6 @@
     background: white;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 
 }
 
