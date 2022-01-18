@@ -1,0 +1,42 @@
+.w360 {
+    width: 360px;
+}
+.h80 {
+    height: 80px;
+}
+.h300 {
+    height: 300px;
+}
+.pr-yel {
+    background: yellow;
+}
+.loc-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.br {
+    border: 2px solid gray;
+}
+.sq {
+    width: 240px;
+    height: 120px;
+    background: violet;
+}
+.long {
+    width: 100px;
+    height: 270px;
+    background: blue;
+    align-self: center;
+}
+.wrap {
+    display: flex;
+    justify-content: space-around;
+}
+.for-sq {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 250px;
+}
