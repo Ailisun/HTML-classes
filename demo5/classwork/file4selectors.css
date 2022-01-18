@@ -1,0 +1,55 @@
+.whole-items {
+    width: 500px;
+    height: 350px;
+    background: white;
+    align-items: center;
+}
+.green-color {
+    background: #59b387;
+}
+.align-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.align-text {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.border {
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+.w480 {
+    width: 480px;
+}
+.A {
+    height: 60px;
+    margin-top: 10px;
+}
+.other-el {
+    display: flex;
+    justify-content: space-between;
+}
+.h260 {
+    height: 260px;
+}
+.H {
+    width: 120px;
+    height: 235px;
+
+}
+.squares-place {
+    width: 350px;
+}
+.squares {
+    width: 105px;
+    height: 105px;
+}
+.three-in-one {
+    width: 340px;
+    height: 130px;
+    align-items: flex-start;
+}
