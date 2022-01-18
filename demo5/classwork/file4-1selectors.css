@@ -1,0 +1,92 @@
+.w600px {
+    width: 600px;}
+.h400 {
+    height: 250px;}
+.color-blue { background: #97add7}
+.color-dark-blue {background: #15387a
+}
+.color-white {
+    background: white;
+}
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.card {
+    width: 530px;
+    height: 240px;
+    border-radius: 50px;
+    border: 3px solid white;
+}
+.options {
+    width: 500px;
+    height:120px;
+    display: flex;
+    justify-content: space-between;
+}
+.description1 {
+    width: 100px;
+    height: 10px;
+
+
+}
+.pict-des {
+    width: 530px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.pictures {
+    height: 100px;
+    width: 90px;
+    border-radius: 10px;
+}
+.opys {
+    width: 500px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+
+}
+.description3 {
+    width:450px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+.text {
+    width: 40px;
+    height: 10px;
+}
+.icon {
+    width: 150px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.round {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.settings {
+    width:600px;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.border {
+    border: 2px solid white;
+}
