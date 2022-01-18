@@ -1,0 +1,17 @@
+
+html,body{
+    scroll-behavior: smooth;
+}
+h1{
+    color: rgb(50, 161, 111);
+}
+h2{
+    background: rgb(203, 247, 227);
+    color:#3a403d;
+}
+.xxx{
+    color: rgb(40, 63, 52);
+}
+a{
+    color: darkgreen;
+}

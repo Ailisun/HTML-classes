@@ -1,0 +1,61 @@
+#general-set {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+.header {
+    width: 360px;
+    height: 80px;
+    background: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gray;
+}
+.menu {
+    width: 360px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    /*align-items: center;*/
+
+}
+
+.footer {
+    width: 360px;
+    height: 80px;
+    background: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gray;
+}
+
+.rose {
+    width:100px ;
+    height: 270px;
+    background-color: rosybrown;
+    align-self: center;
+    border: 2px solid gray;
+
+}
+.twix {
+    width: 240px;
+    height: 120px;
+    background-color: #bb95e1;
+    align-items: flex-end;
+    border: 2px solid gray;
+
+}
+#wb {
+display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 250px;
+    height: 300px;
+
+}

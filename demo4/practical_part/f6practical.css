@@ -1,0 +1,45 @@
+#three-blocks {
+    width: 500px;
+    height: 730px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.two {
+    width: 490px;
+    height: 360px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.one{
+    width: 490px;
+    height: 160px;
+    background-color: #fd54a5;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+.three {
+    width:490px ;
+    height: 160px;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.long {
+    width: 240px;
+    height: 360px;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+.square {
+    width:150px;
+    height:160px;
+    background: #fda901;
+    display: flex;
+    justify-content: center;
+    align-items: center; }

@@ -1,0 +1,71 @@
+#all {
+    width: 500px;
+    height: 350px;
+    background: #ffffff;
+    border: 2px solid gray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.A {
+    width: 480px;
+    height: 60px;
+    background: #fd54a5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gray;
+    margin-top: 10px;
+}
+.more {
+    width: 480px;
+    height:260px ;
+    display: flex;
+    justify-content: space-between;
+}
+.three {
+    width:350px;
+    height:260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.H {
+    width: 120px;
+    height:235px;
+    background-color: #fda901;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gray;
+}
+.dodatkovo {
+    width: 340px;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.two {
+    width: 340px;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.alf {
+    width:105px;
+    height:105px;
+    background-color: rgba(165, 59, 185, 0.76);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gray;
+}
