@@ -15,26 +15,25 @@ body {margin: 0}
 .h100px {
     height: 100px;
      }
-
+.h600px {
+    height: 600px;
+}
 .row1 {
     height: 90px;
     display: flex;
     justify-content:flex-end;
     align-items: center;
     margin-right: 200px;
-
 }
 .buttons {
     height: 10px;
     width: 50px;
     margin-right: 10px;
 }
-
 .flex {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 .register-button {
     height:30px;
@@ -108,13 +107,67 @@ h2 {
 .dark-icons {
     width: 200px;
     height: 220px;
-    border: 2px solid white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
 }
 .round {
     width: 100px;
     height: 100px;
     border-radius: 50%;
+}
+.text-under-round {
+    width: 60px;
+    height: 10px;
+}
+.border-white {
+    border: 2px solid white;
+}
+.border-round {
+    border-radius: 10px;
+}
+.six-items-text {
+    height:490px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+.rectangle {
+    width: 150px;
+    height: 80px;
+}
+.gray-block1 {
+    width: 450px;
+    height: 300px;
+}
+
+.big-rectangle {
+    height: 250px;
+    width: 350px;
+}
+
+.for-blocks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.small-squares {
+    width: 50px;
+    height: 50px;
+
+}
+.h150px {
+    height: 200px;
+}
+.small-blocks {
+    display: flex;
+}
+
+.inner-block {
+    width: 400px;
+    display: flex;
+    justify-content:space-evenly ;
 }
