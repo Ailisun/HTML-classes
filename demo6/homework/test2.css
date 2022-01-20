@@ -86,8 +86,91 @@ header {
     height: 200px;
     background: darksalmon;
 }
+.additional {
+    display: none;
+}
 footer {
     height: 100px;
     width: 870px;
     background: #2cfdf1;
+}
+
+@media screen and (min-width: 393px) and (max-width:851px ) {
+
+    header {
+        height: 100px;
+        width: 393px;
+    }
+    .eight, .nine {
+        display: none;
+    }
+    .three {
+        height: 100px;
+        width: 390px;
+    }
+    .first-column {
+        height: 100px;
+        width: 393px;
+    }
+    .body {
+        width: 393px;
+        display: inline;
+    }
+    .four-five {
+        width: 393px;
+        height:300px ;
+    }
+    .second-column {
+        width:393px;
+        display: flex;
+    }
+    .four-five {
+        width: 380px;
+        height: 150px;
+
+    }
+    .four {
+        width: 280px;
+        height: 147px;
+    }
+    .five {
+        width: 115px;
+        height: 147px;
+        margin-left: 5px;
+    }
+    .six-seven {
+        width: 393px;
+        height:300px ;
+        display: inline;
+    }
+    .six {
+        height:100px;
+        width: 390px;
+    }
+    .seven {
+        height: 90px;
+        width: 390px;
+    }
+    footer {
+        display: none;
+    }
+    .additional {
+        display: flex
+
+    }
+    .add8 {
+        height: 50px;
+        width: 190px;
+        background: darkseagreen;
+    }
+    .add9 {
+        height: 50px;
+        width: 200px;
+        background: blueviolet;
+    }
+    .footer {
+        height: 100px;
+        width: 390px;
+        background: #2cfdf1;
+    }
 }
