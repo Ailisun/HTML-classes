@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="normalize.css">
+    <style>
+        .h40 {
+            height: 40px;
+        }
+
+        .h220 {
+            height: 220px;
+        }
+
+        .h88 {
+            height: 88px;
+        }
+
+        .brg {
+            background: #676767;
+        }
+
+        .w70 {
+            width: 70px;
+        }
+
+        .w172 {
+            width: 172px;
+        }
+
+        .header {
+            width: 250px;
+        }
+
+        .display {
+            display: flex;
+        }
+
+        .col-gap-8 {
+            column-gap: 8px;
+        }
+
+        .row-gap-8 {
+            row-gap: 8px;
+        }
+
+        .number2 {
+            flex-direction: column;
+        }
+
+        .mar-t-8 {
+            margin-top: 8px;
+        }
+
+        .mar-l-8 {
+            margin-left: 8px;
+        }
+
+        .pad-t-10 {
+            padding-top: 10px;
+        }
+
+        .pad-t-35 {
+            padding-top: 35px;
+        }
+
+        .pad-t-100 {
+            padding-top: 100px;
+        }
+
+        .number5 {
+            height: 75px;
+            width: 328px;
+            padding-top: 25px;
+        }
+
+        .color-wh {
+            color: white;
+            text-align: center;
+        }
+
+        .box-size-border {
+            box-sizing: border-box;
+        }
+
+        .number2 {
+            flex-direction: column;
+        }
+        .number2-mobile {
+            display: none;
+        }
+
+        @media screen and (max-width: 600px) {
+            .number1 {
+                margin: 0;
+                column-gap: 0;
+                width: 200px;
+            }
+
+            .number-2-3-4 {
+                display: block;
+            }
+
+            .nav {
+                height: 40px;
+                width: 200px;
+                padding-top: 10px;
+                box-sizing: border-box;
+            }
+
+            .number3 {
+                column-gap: 0;
+            }
+            .number2 {
+                display: none;
+            }
+
+            .number4 {
+                flex-direction: column;
+                width: 200px;
+            }
+
+            .bath {
+                width: 164px;
+                margin-right: 8px;
+            }
+
+            .number5 {
+                width: 200px;
+            }
+            .number2-mobile {
+                display: flex;
+                column-gap: 8px;
+            }
+            .number-3-4 {
+                margin-left: 0;
+                width: 200px;
+            }
+            .store, .tools {
+                width: 96px;
+            }
+            .store {
+                padding-top: 8px;
+            }
+            .types {
+                width: 200px;
+            }
+            .related {
+                height: 88px;
+                width: 200px;
+                padding-top: 30px;
+                margin-top: 8px;
+            }
+        }
+    </style>
+    <title>Title</title>
+</head>
+<body>
+<div class="number1 display col-gap-8">
+    <div class="logo h40 w70 brg color-wh box-size-border pad-t-10">Logo</div>
+    <div class="header h40 brg color-wh box-size-border pad-t-10">Header</div>
+</div>
+<div class="number-2-3-4 display">
+    <div class="nav-store-tools">
+        <div class="nav h220 w70 brg color-wh box-size-border pad-t-100 mar-t-8">Nav</div>
+        <div class="number2 display row-gap-8 mar-t-8">
+            <div class="store h40 w70 brg color-wh box-size-border">Store locator</div>
+            <div class="tools h40 w70 brg color-wh box-size-border pad-t-10">Tools</div>
+        </div>
+    </div>
+    <div class="number-3-4 mar-l-8 mar-t-8">
+        <div class="number3 display col-gap-8">
+            <div class="bath h88 brg w172 color-wh box-size-border pad-t-35">Bath section intro</div>
+            <div class="ad w70 h88 brg color-wh box-size-border pad-t-35">Ad</div>
+        </div>
+        <div class="number4 display col-gap-8 mar-t-8">
+            <div class="types h220 w172 brg color-wh box-size-border pad-t-100">Types of baths</div>
+            <div class="related h220 w70 brg color-wh box-size-border pad-t-100">Related products</div>
+        </div>
+    </div>
+</div>
+<div class="number2-mobile display row-gap-8 mar-t-8">
+    <div class="store h40 w70 brg color-wh box-size-border">Store locator</div>
+    <div class="tools h40 w70 brg color-wh box-size-border pad-t-10">Tools</div>
+</div>
+<div class="number5 brg mar-t-8 color-wh box-size-border">Footer</div>
+</body>
+</html>
