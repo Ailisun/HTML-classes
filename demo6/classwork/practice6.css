@@ -1,0 +1,107 @@
+body {
+    background: #b3c9d5;
+}
+.border {
+    border: 2px solid #1f1f3b;
+}
+.white {
+    background: white;
+}
+.blue {
+    background: #b3c9d5;
+}
+.flex {
+    display: flex;
+}
+.al-center {
+    align-items: center;
+}
+.space-around {
+    justify-content: space-around;
+}
+.marg-10 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.container1 {
+    width: 1000px;
+    height: 800px;
+}
+.block {
+    max-width: 1100px;
+    max-height: 1100px;
+    display: flex;
+}
+.one {
+    height: 100px;
+    width:1000px;
+    align-items: center;
+
+}
+.two {
+    height: 1000px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+.childs {
+    height: 30px;
+    width: 70px;
+    margin-top: 10px;
+}
+.three  {
+    height: 150px;
+    width:895px;
+}
+.two-in-2 {
+    height: 120px;
+    width: 800px;
+  }
+.four {
+    height: 100px;
+    width: 895px;
+}
+.kvadrat {
+    height: 50px;
+    width: 100px;
+}
+.col-5-6 {
+    width: 900px;
+    height: 600px;
+}
+.five {
+    width: 700px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.opt-in5 {
+    width:150px;
+    height: 100px;
+
+}
+.six {
+    width: 200px;
+    height: 600px;
+}
+.seven {
+    width: 895px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.in-sev1 {
+    width: 700px;
+    height: 50px;
+
+}
+
+.in-sev2 {
+    width: 150px;
+    height: 30px;
+}
