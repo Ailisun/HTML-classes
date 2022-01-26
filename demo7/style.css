@@ -5,6 +5,10 @@
 }
 :root {
     --black-color:#000;
+    --yellow:#F9C600;
+    --white:#FFF;
+    --green:#51CEBC;
+    --violet:#BD78F0;
 }
 .wrapper {
     max-width: 1372px;
@@ -38,12 +42,14 @@
     font-size: 16px;
     line-height: 24px;
     padding: 0 25px;
-    background-color: var(--black-color);
-    color: white;
     cursor: pointer;
     transition: box-shadow .35s;
 }
-.nav_btn:hover {
+.black-btn {
+    background-color: var(--black-color);
+    color: white;
+}
+.nav_btn:hover, .yel_btn:hover, .wh_btn:hover {
     box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.75);
@@ -56,8 +62,8 @@
 }
 .header_wrap_content {
     display: flex;
-    justify-content: space-between;
     column-gap: 258px;
+    height: 1050px;
 }
 .padding-top{
     padding-top: 156px;
@@ -83,10 +89,119 @@ img#bottom {
     margin-top: 20px;
 }
 img#top {
+    height: 541px;
     position:relative;
     margin-left: -102px;
-    margin-top: 172px;
+    margin-top: 102px;
+}
+.header_content {
+    margin-left: 100px;
+}
+.header_content_btn {
+    margin-top: 38px;
+}
+.yel_btn {
+    background-color: var(--yellow);
+    color: black;
+    cursor: pointer;
+    transition: box-shadow .35s;
+    border: 1px solid #F9C600;
+    margin-right: 16px;
+}
+.wh_btn {
+    background-color: var(--white);
+    color: black;
+    cursor: pointer;
+    transition: box-shadow .35s;
+    border: 1px solid #0B2330;
+}
+#companies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content_title_comp {
+    width: 547px;
+    height: 96px;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 59px;
+}
+.green_background {
+    height: 494px;
+    background-color:var(--green);
+    margin-top:192px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.bicyclist_pic {
+    display: flex;
+    width:300px;
+    height:400px;
+}
+.content_near-bicucle {
+    display: flex;
+    flex-direction: column;
+    margin-right: 121px;
+}
+.text__near_bicyclist {
+    width: 557px;
+    height: 120px;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 40px;
+    display: flex;
+    margin-bottom:35px;
 
+}
+.text_align_center {
+    text-align: center;
+}
+.text_green_backgr {
+    height: 64px;
+    width: 557px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px;
+}
+.spring_additional_info {
+    height:800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 191px;
+}
+.text_onb_drop_off {
+    width: 711px;
+    height: 80px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 40px;
+}
+.violet_background {
+    height: 537px;
+    width: 1260px;
+    background-color: var(--violet);
+    margin-top:160px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap:136px;
+}
+.text__violet {
+    width: 485px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 48px;
+    margin-bottom:39px;
 
 }
