@@ -392,7 +392,11 @@ img#top {
     flex-direction: column;
 }
 .accordion {
-    width: 589px;
+    width: 483px;
+}
+.accordion_hr {
+    width:590px;
+    margin-left: 0;
 }
 .title {
     font-style: normal;

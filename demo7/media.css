@@ -105,8 +105,11 @@
     .accordion {
         width: 589px;
     }
+    .accordion_hr{
+        width:560px;
+    }
     hr {
-        width: 550px;
+        width: 820px;
         margin-left: 0;
     }
     .title_in_accordion {
@@ -129,6 +132,7 @@
     .black-block1, .black-block2 {
         width: 820px;
     }
+
     .footer-bar {
         column-gap:0;
         flex-wrap: wrap;
